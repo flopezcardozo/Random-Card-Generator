@@ -1,1 +1,37 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.carta {
+  background-color: white;
+  position: absolute;
+  width: 320px;
+  height: 420px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+  margin-left: 25%;
+  margin-top: 5%;
+  border-radius: 15px;
+}
+.arriba {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.abajo {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  margin-left: 75%;
+  margin-top: 100%;
+}
+.centro {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  top: 30%;
+  left: 30%;
+}
