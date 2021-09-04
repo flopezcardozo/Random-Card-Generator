@@ -15,6 +15,10 @@ body {
   border-radius: 15px;
 }
 .arriba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 400%;
   position: absolute;
   width: 20%;
   height: 20%;
@@ -22,6 +26,10 @@ body {
   margin-top: 5%;
 }
 .abajo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 400%;
   position: absolute;
   width: 20%;
   height: 20%;
@@ -29,9 +37,26 @@ body {
   margin-top: 100%;
 }
 .centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 900%;
   position: absolute;
   width: 40%;
   height: 40%;
   top: 30%;
   left: 30%;
+}
+
+#button {
+  background-color: #746e6d;
+  border: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }

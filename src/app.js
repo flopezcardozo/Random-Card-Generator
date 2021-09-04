@@ -25,9 +25,7 @@ window.onload = function() {
   let palos = ["♥", "♦", "♣", "♠"];
 
   let valor = randomValores();
-  console.log(valor);
   let palo = randomPalos();
-  console.log(palo);
 
   let nroAleatorio = valores[valor];
   let paloAleatorio = palos[palo];
@@ -45,4 +43,19 @@ window.onload = function() {
   paloArriba.innerHTML = paloAleatorio;
   paloAbajo.innerHTML = paloAleatorio;
   nroCentro.innerHTML = nroAleatorio;
+
+  paloArriba.innerHTML == "♥" || paloArriba.innerHTML == "♦"
+    ? (paloArriba.style.color = "Red")
+    : "Black";
+
+  paloAbajo.innerHTML == "♥" || paloAbajo.innerHTML == "♦"
+    ? (paloAbajo.style.color = "Red")
+    : "Black";
+  paloAbajo.innerHTML == "♥" || paloArriba.innerHTML == "♦"
+    ? (nroCentro.style.color = "Red")
+    : "Black";
+
+  function refreshPage() {
+    window.location.reload();
+  }
 };
